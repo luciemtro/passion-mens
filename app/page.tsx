@@ -462,25 +462,58 @@ export default function HomePage() {
           <a href="tel:+33600000000" className="cta-btn sec">Nous appeler</a>
         </div>
 
-        <div className="p6-right">
-          <p className="p6-info-title">Nous joindre</p>
+<div className="p6-right">
+  <p className="p6-info-title">Nous joindre</p>
 
-          <div className="p6-info-row">
-            <p className="p6-info-label">Email</p>
-            <p className="p6-info-val">contact.bfl.events@gmail.com</p>
-          </div>
-          <div className="p6-info-row">
-            <p className="p6-info-label">Téléphone</p>
-            <p className="p6-info-val">+33 7 82 34 81 13</p>
-          </div>
-          <div className="p6-info-row">
-            <p className="p6-info-label">Site web</p>
-            <p className="p6-info-val">www.passionmens.fr</p>
-          </div>
-          <div className="p6-info-row">
-            <p className="p6-info-label">Instagram &amp; TikTok</p>
-            <p className="p6-info-val">@passionmens</p>
-          </div>
+  <div className="p6-info-row">
+    <p className="p6-info-label">Email</p>
+    <p className="p6-info-val">
+      <a
+        href="mailto:contact.bfl.events@gmail.com"
+        style={{ color: "inherit", textDecoration: "none" }}
+      >
+        contact.bfl.events@gmail.com
+      </a>
+    </p>
+  </div>
+
+  <div className="p6-info-row">
+    <p className="p6-info-label">Téléphone</p>
+    <p className="p6-info-val">
+      <a
+        href="tel:+33782348113"
+        style={{ color: "inherit", textDecoration: "none" }}
+      >
+        +33 7 82 34 81 13
+      </a>
+    </p>
+  </div>
+
+
+
+  <div className="p6-info-row">
+    <p className="p6-info-label">Réseaux sociaux</p>
+    <p className="p6-info-val">
+      <a
+        href="https://www.instagram.com/passionmens_show?igsh=OHI1enA1cGdtanZ5"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "inherit", textDecoration: "none" }}
+      >
+        Instagram
+      </a>
+      {" • "}
+      <a
+        href="https://www.tiktok.com/passionmens_show?_r=1&_t=ZN-96vxpzXEeTm"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "inherit", textDecoration: "none" }}
+      >
+        TikTok
+      </a>
+    </p>
+  </div>
+
 
           <p className="p6-brand" aria-hidden="true">PASSION MENS</p>
         </div>

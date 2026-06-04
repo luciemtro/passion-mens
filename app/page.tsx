@@ -495,7 +495,7 @@ export default function HomePage() {
     <p className="p6-info-label">Réseaux sociaux</p>
     <p className="p6-info-val">
       <a
-        href="https://www.instagram.com/passionmens_show?igsh=OHI1enA1cGdtanZ5"
+        href="https://www.instagram.com/passionmens_show"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "inherit", textDecoration: "none" }}
@@ -504,7 +504,7 @@ export default function HomePage() {
       </a>
       {" • "}
       <a
-        href="https://www.tiktok.com/passionmens_show?_r=1&_t=ZN-96vxpzXEeTm"
+        href="https://www.tiktok.com/@passionmens_show"
         target="_blank"
         rel="noopener noreferrer"
         style={{ color: "inherit", textDecoration: "none" }}

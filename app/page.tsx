@@ -467,11 +467,11 @@ export default function HomePage() {
 
           <div className="p6-info-row">
             <p className="p6-info-label">Email</p>
-            <p className="p6-info-val">contact@passionmens.fr</p>
+            <p className="p6-info-val">contact.bfl.events@gmail.com</p>
           </div>
           <div className="p6-info-row">
             <p className="p6-info-label">Téléphone</p>
-            <p className="p6-info-val">+33 6 00 00 00 00</p>
+            <p className="p6-info-val">+33 7 82 34 81 13</p>
           </div>
           <div className="p6-info-row">
             <p className="p6-info-label">Site web</p>
